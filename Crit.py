@@ -1,7 +1,7 @@
 #Part 1
 
  
-#Takes input from the user
+#Takes input from the user 
 num1_input = input('Please enter a number:')
 num2_input = input('Please enter a second number:')
 
