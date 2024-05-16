@@ -1,0 +1,26 @@
+# User enters number of years
+number_of_years = int(input("Enter the number of years: "))
+
+# Sets variables zero.
+total_rainfall = 0.0
+number_of_months = 0
+
+# Iterate over the number of years.
+for year in range(number_of_years):
+    # Iterate over the number of months in a year.
+    for month in range(12):
+        # Prompts  user input for monthly rainfall.
+        rainfall = float(input(f"Enter the rainfall for month {month + 1} in year {year + 1}: "))
+
+    total_rainfall += rainfall
+
+    # Increment number of months.
+    number_of_months += 1
+
+# Calculates the average rainfall per month.
+average_rainfall = total_rainfall / number_of_months
+
+# Prints results
+print("\nTotal rainfall:", total_rainfall)
+print("Average rainfall per month:", average_rainfall)
+print("The total number of months: ", number_of_months)
