@@ -1,0 +1,14 @@
+num_of_books = int(input('How many books were purchased this month? \n'))
+
+if num_of_books < 2: 
+    print ('You currently have 0 points')
+elif num_of_books <= 2:
+    print ('You currently have 5 points')
+elif num_of_books <= 3:
+    print ('You currently have 4 points')   
+elif num_of_books <= 5:
+    print ('You currently have 15 points')
+elif num_of_books <= 7:
+    print ('You currently have 30 points')
+elif num_of_books >= 8:
+    print ('You currently have 60 points')
